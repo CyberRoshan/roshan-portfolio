@@ -20,6 +20,9 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
   
+.cursor-pointer{
+    cursor: pointer;
+}
 .zoom {
     border-radius: 5px;
     transition: transform .2s;
