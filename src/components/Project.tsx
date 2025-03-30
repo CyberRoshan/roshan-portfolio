@@ -15,6 +15,7 @@ import multiweb from '../assets/images/multiweb.png';
 import fashionz from '../assets/images/fashionz.png';
 import susmmajs from '../assets/images/sushma-js.png';
 import plantour from '../assets/images/plantour.png';
+import iconMarket from '../assets/images/iconmarket.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -35,10 +36,10 @@ function Project() {
                 category, and order management.</p>
             </div>
             <div className="project">
-                <a href="https://giexpresstaxi.co.uk/cabtaxi" rel="noreferrer" target="_blank">
+                <a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">
                 <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://giexpresstaxi.co.uk/cabtaxi" rel="noreferrer" target="_blank">Gi Express Taxi</a></h2>
+               <h2><a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">Gi Express Taxi</a></h2>
                 <p>Developed fully responsive customer and driver dashboards, developing 15+
                 pages based on my design expertise and experience.</p>
             </div>
@@ -54,35 +55,42 @@ function Project() {
                 <img src={multiweb} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                 <h2><a href="https://www.multiverbalcreations.com" rel="noreferrer" target="_blank">Multi Verbal Creations</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+                <p>Developed the Multi Verbal Creations website with a modern, fully responsive design using Tailwind CSS.</p>
             </div>
             <div className="project">
                 <a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">
                 <img src={bahari} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                 <h2><a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">Bahari</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+                <p>Developed the Bahari site with 30+ pages by converting Figma to code using Bootstrap, ensuring it’s fully responsive and pixel-perfect.</p>
             </div>
             <div className="project">
                 <a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">
                 <img src={econ} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                 <h2><a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">Econ Market Researchs</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+                <p>Revamped the ECON market research site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
+            </div>
+            <div className="project">
+            <a href="https://icon-market-research.vercel.app/" rel="noreferrer" target="_blank">
+                <img src={iconMarket} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://icon-market-research.vercel.app/" rel="noreferrer" target="_blank">ICON Market Research</a></h2>
+                <p>Developed the ICON Market Research site with Tailwind CSS in a modern business theme. Designed and coded a fully responsive layout.</p>
             </div>
             <div className="project">
             <a href="https://edushrine.in/" rel="noreferrer" target="_blank">
                 <img src={edushrine} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                 <h2><a href="https://edushrine.in/" rel="noreferrer" target="_blank">Edushrine</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+                <p>Developed the Edushrine Coaching Institute site and dashboard using React and Tailwind CSS for a modern, responsive design.</p>
             </div>
             <div className="project">
                 <a href="https://econresearchs.com/" rel="noreferrer" target="_blank">
                 <img src={econ2} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                 <h2><a href="https://econresearchs.com/" rel="noreferrer" target="_blank">Econ Researchs</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+                <p>Revamped the Econ researchs site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
             </div>
             <div className="project">
                 <a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">
