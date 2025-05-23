@@ -27,14 +27,14 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
-            <div className="project">
+            {/* <div className="project">
             <div onClick={openLinks} className="cursor-pointer">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 </div>
                 <h2><div className="cursor-pointer" onClick={openLinks}>Frank and Oak Ecommerce</div></h2>
                 <p>Developed an ecommerce platform with customer-facing site and admin panel for product,
                 category, and order management.</p>
-            </div>
+            </div> */}
             <div className="project">
                 <a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">
                 <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
