@@ -17,12 +17,12 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="JUNE 2024 - PRESENT"
+            date="JUNE 2024 - FEB 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle comName">WsCube Tech, Jodhpur</h4>
+            <h4 className="vertical-timeline-element-subtitle comName">WsCube Tech</h4>
             <p>
             <FaArrowRight className="pointers" /> Primary responsibilities included <b>design, research, development, and
             maintenance of the websites</b>.
@@ -42,7 +42,7 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle comName"> Iway Digital, Noida</h4>
+            <h4 className="vertical-timeline-element-subtitle comName"> Iway Digital</h4>
             <p>
             <FaArrowRight className="pointers" /> Primary responsibilities included <b>design, research, development, and
             maintenance of the websites</b>.

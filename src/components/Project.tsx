@@ -16,25 +16,26 @@ import fashionz from '../assets/images/fashionz.png';
 import susmmajs from '../assets/images/sushma-js.png';
 import plantour from '../assets/images/plantour.png';
 import iconMarket from '../assets/images/iconmarket.png';
+import munch from '../assets/images/munch.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
     function openLinks() {
-        window.open("https://frankandoak-website.onrender.com", "_blank");
-        window.open("https://frank-and-oak-backend.onrender.com", "_blank");
+        window.open("https://frankandoak-website.vercel.app", "_blank");
+        window.open("https://frankandoak-backend.vercel.app", "_blank");
       }
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1 className="tech-title">Custom Projects</h1>
         <div className="projects-grid">
-            {/* <div className="project">
+            <div className="project">
             <div onClick={openLinks} className="cursor-pointer">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 </div>
                 <h2><div className="cursor-pointer" onClick={openLinks}>Frank and Oak Ecommerce</div></h2>
                 <p>Developed an ecommerce platform with customer-facing site and admin panel for product,
                 category, and order management.</p>
-            </div> */}
+            </div>
             <div className="project">
                 <a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">
                 <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
@@ -51,25 +52,18 @@ function Project() {
                 <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
             </div>
             <div className="project">
-            <a href="https://www.multiverbalcreations.com" rel="noreferrer" target="_blank">
-                <img src={multiweb} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">
+                <img src={mock08} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-                <h2><a href="https://www.multiverbalcreations.com" rel="noreferrer" target="_blank">Multi Verbal Creations</a></h2>
-                <p>Developed the Multi Verbal Creations website with a modern, fully responsive design using Tailwind CSS.</p>
+                <h2><a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">LawPrepTutorial</a></h2>
+                <p>Developed a responsive web platform providing tutorials and resources for law students.</p>
             </div>
             <div className="project">
-                <a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">
-                <img src={bahari} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://munch-zeta.vercel.app" rel="noreferrer" target="_blank">
+                <img src={munch} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-                <h2><a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">Bahari</a></h2>
-                <p>Developed the Bahari site with 30+ pages by converting Figma to code using Bootstrap, ensuring it’s fully responsive and pixel-perfect.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">
-                <img src={econ} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-                <h2><a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">Econ Market Researchs</a></h2>
-                <p>Revamped the ECON market research site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
+                <h2><a href="https://munch-zeta.vercel.app" rel="noreferrer" target="_blank">Manch</a></h2>
+                <p>Developed a responsive website providing services and resources for court services.</p>
             </div>
             <div className="project">
             <a href="https://icon-market-research.vercel.app/" rel="noreferrer" target="_blank">
@@ -79,33 +73,18 @@ function Project() {
                 <p>Developed the ICON Market Research site with Tailwind CSS in a modern business theme. Designed and coded a fully responsive layout.</p>
             </div>
             <div className="project">
-            <a href="https://edushrine.in/" rel="noreferrer" target="_blank">
-                <img src={edushrine} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">
+                <img src={econ} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-                <h2><a href="https://edushrine.in/" rel="noreferrer" target="_blank">Edushrine</a></h2>
-                <p>Developed the Edushrine Coaching Institute site and dashboard using React and Tailwind CSS for a modern, responsive design.</p>
+                <h2><a href="https://www.econmarketresearch.com/" rel="noreferrer" target="_blank">Econ Market Researchs</a></h2>
+                <p>Revamped the ECON market research site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
             </div>
             <div className="project">
-                <a href="https://econresearchs.com/" rel="noreferrer" target="_blank">
-                <img src={econ2} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">
+                <img src={bahari} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-                <h2><a href="https://econresearchs.com/" rel="noreferrer" target="_blank">Econ Researchs</a></h2>
-                <p>Revamped the Econ researchs site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
-            </div>
-            <div className="project">
-                <a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">
-                <img src={mock08} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-                <h2><a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">LawPrepTutorial</a></h2>
-                <p>Developed a responsive web platform providing tutorials and resources for law students.</p>
-            </div>
-            <div className="project">
-                <a href="https://traveinstein.com/" rel="noreferrer" target="_blank">
-                <img src={mock06} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-                <h2><a href="https://traveinstein.com/" rel="noreferrer" target="_blank">Traveinstein: Plan Your Travel</a></h2>
-                <p>Developed fully responsive Landing Pages, User dashboards, CMS Portal, developing 15+
-                pages.</p>
+                <h2><a href="https://bahri-frontend.vercel.app/home.html" rel="noreferrer" target="_blank">Bahari</a></h2>
+                <p>Developed the Bahari site with 30+ pages by converting Figma to code using Bootstrap, ensuring it’s fully responsive and pixel-perfect.</p>
             </div>
             <div className="project">
                 <a href="https://kamma-admin-panel-rdzf.vercel.app" rel="noreferrer" target="_blank">
@@ -122,6 +101,35 @@ function Project() {
                 <h2><a href="https://zenvi-landing-page.vercel.app" rel="noreferrer" target="_blank">Zenvi : Unlock the power of thinking</a></h2>
                 <p>Built a responsive landing page with Animation on Scroll (AOS) for dynamic
                 UX, converting a desktop-only Figma design to a mobile-friendly version.</p>
+            </div>
+            <div className="project">
+                <a href="https://traveinstein.com/" rel="noreferrer" target="_blank">
+                <img src={mock06} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://traveinstein.com/" rel="noreferrer" target="_blank">Traveinstein: Plan Your Travel</a></h2>
+                <p>Developed fully responsive Landing Pages, User dashboards, CMS Portal, developing 15+
+                pages.</p>
+            </div>
+            <div className="project">
+                <a href="https://econresearchs.com/" rel="noreferrer" target="_blank">
+                <img src={econ2} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://econresearchs.com/" rel="noreferrer" target="_blank">Econ Researchs</a></h2>
+                <p>Revamped the Econ researchs site with 25+ pages, making it modern, fully responsive, and resolving performance issues.</p>
+            </div>
+            <div className="project">
+            <a href="https://www.multiverbalcreations.com" rel="noreferrer" target="_blank">
+                <img src={multiweb} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://www.multiverbalcreations.com" rel="noreferrer" target="_blank">Multi Verbal Creations</a></h2>
+                <p>Developed the Multi Verbal Creations website with a modern, fully responsive design using Tailwind CSS.</p>
+            </div>
+            <div className="project">
+            <a href="https://edushrine.in/" rel="noreferrer" target="_blank">
+                <img src={edushrine} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://edushrine.in/" rel="noreferrer" target="_blank">Edushrine</a></h2>
+                <p>Developed the Edushrine Coaching Institute site and dashboard using React and Tailwind CSS for a modern, responsive design.</p>
             </div>
             <div className="project">
                 <a href="https://cyberroshan.github.io/Sushma-Service-Partner-Clone.github.io" rel="noreferrer" target="_blank">

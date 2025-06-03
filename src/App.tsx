@@ -10,6 +10,7 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import PortfolioTabs from "./components/ProjectsTabs";
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -33,7 +34,8 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
-            <Project/>
+            {/* <Project/> */}
+            <PortfolioTabs/>
             <Contact/>
         </FadeIn>
         <Footer />

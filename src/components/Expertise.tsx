@@ -25,12 +25,12 @@ const labelsFirst = [
     "Firebase",
     "REST API's",
     "Postman",
-    "SQL",
-    "PHP",
-    "Laravel",
     "Third-party API integration",
     "Code optimization",
-    "AWS"
+    "AWS",
+    "Wordpress",
+    "Woocommerce",
+    "Shopify"
 ];
 
 
