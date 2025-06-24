@@ -10,7 +10,7 @@ export default function PortfolioTabs() {
   return (
     <div className="">
   {/* Header */}
-  <div className="header">
+  <div id="previous-works" className="header">
     <h2 className="title">My Projects</h2>
     <p className="subtitle">Explore my work across different technologies and platforms</p>
   </div>
