@@ -16,6 +16,8 @@ import fashionz from '../assets/images/fashionz.png';
 import susmmajs from '../assets/images/sushma-js.png';
 import plantour from '../assets/images/plantour.png';
 import iconMarket from '../assets/images/iconmarket.png';
+import zenlegal from '../assets/images/zenlegal.png';
+import zenadmin from '../assets/images/zenadmin.png';
 import munch from '../assets/images/munch.png';
 import '../assets/styles/Project.scss';
 
@@ -29,20 +31,41 @@ function Project() {
         <h1 className="tech-title">Custom Projects</h1>
         <div className="projects-grid">
             <div className="project">
+                <a href="https://www.zenlegalgroup.com" rel="noreferrer" target="_blank">
+                <img src={zenlegal} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.zenlegalgroup.com" rel="noreferrer" target="_blank">Zen Legal LLP</a></h2>
+                <p>Developed a fully responsive website in React.js, converting Figma designs into clean, optimized code. Built 8+ custom pages and implemented a functional backend using Express, followed by complete deployment.</p>
+            </div>
+            <div className="project">
+                <a href="https://giexpresstaxi.co.uk" rel="noreferrer" target="_blank">
+                <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://giexpresstaxi.co.uk" rel="noreferrer" target="_blank">Gi Express Taxi</a></h2>
+                <p>Developed fully responsive customer and driver dashboards, developing 15+
+                pages based on my design expertise and experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.manch.live" rel="noreferrer" target="_blank">
+                <img src={munch} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://www.manch.live" rel="noreferrer" target="_blank">Manch - Digital Resolution Platform</a></h2>
+                <p>Developed a fully responsive website in React.js converting Figma designs into clean, optimized code. Built 25+ custom pages and implemented a functional backend using Express, followed by complete deployment.</p>
+            </div>
+            <div className="project">
+                <a href="https://zen-legal-admin-panel.vercel.app" rel="noreferrer" target="_blank">
+                <img src={zenadmin} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://zen-legal-admin-panel.vercel.app" rel="noreferrer" target="_blank">Zen Legal LLP - Dashboard</a></h2>
+                <p>Developed a fully responsive Admin Dashboard in React.js converting Figma designs into clean, optimized code. Built 42+ custom pages and implemented a functional backend using Express, followed by complete deployment.</p>
+            </div>
+            <div className="project">
             <div onClick={openLinks} className="cursor-pointer">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 </div>
                 <h2><div className="cursor-pointer" onClick={openLinks}>Frank and Oak Ecommerce</div></h2>
                 <p>Developed an ecommerce platform with customer-facing site and admin panel for product,
                 category, and order management.</p>
-            </div>
-            <div className="project">
-                <a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">
-                <img src={mock07} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://giexpresstaxi.co.uk/cabfinal" rel="noreferrer" target="_blank">Gi Express Taxi</a></h2>
-                <p>Developed fully responsive customer and driver dashboards, developing 15+
-                pages based on my design expertise and experience.</p>
             </div>
             <div className="project">
             <a href="https://sushmagroup.realtynivesh.com" rel="noreferrer" target="_blank">
@@ -57,13 +80,6 @@ function Project() {
                 </a>
                 <h2><a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">LawPrepTutorial</a></h2>
                 <p>Developed a responsive web platform providing tutorials and resources for law students.</p>
-            </div>
-            <div className="project">
-                <a href="https://munch-zeta.vercel.app" rel="noreferrer" target="_blank">
-                <img src={munch} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-                <h2><a href="https://munch-zeta.vercel.app" rel="noreferrer" target="_blank">Manch</a></h2>
-                <p>Developed a responsive website providing services and resources for court services.</p>
             </div>
             <div className="project">
             <a href="https://icon-market-research.vercel.app/" rel="noreferrer" target="_blank">

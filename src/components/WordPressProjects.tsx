@@ -12,6 +12,8 @@ import housefull from '../assets/images/housefull.png';
 import accelence from '../assets/images/accelence.png';
 import urbannext from '../assets/images/urbannext.png';
 import stories from '../assets/images/stories.png';
+import digi from '../assets/images/digi.png';
+import cicl from '../assets/images/cicl.png';
 import travelinfoline from '../assets/images/5-min.png';
 import '../assets/styles/Project.scss';
 
@@ -41,12 +43,26 @@ export default function WordPressProjects() {
                <h2><a href="https://accelance.io" rel="noreferrer" target="_blank">Accelance - Figma to Wordpress</a></h2>
                 <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
             </div>
+            {/* <div className="project">
+                <a href="https://digieminence.co.in" rel="noreferrer" target="_blank">
+                <img src={digi} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://digieminence.co.in" rel="noreferrer" target="_blank">Digi Eminence - Digital Marketing Agency</a></h2>
+                <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
+            </div> */}
             <div className="project">
                 <a href="https://www.mittulshah.com/" rel="noreferrer" target="_blank">
                 <img src={mittul} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://www.mittulshah.com/" rel="noreferrer" target="_blank">Mittul Shah - Freelancer Website</a></h2>
                 <p>Mittul Shah - Freelancer – A clean, responsive website developed in WordPress to showcase about freelancer and marketing services.</p>
+            </div>
+            <div className="project">
+                <a href="https://cicluk.co.uk" rel="noreferrer" target="_blank">
+                <img src={cicl} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://cicluk.co.uk" rel="noreferrer" target="_blank">CICL (UK) - Investment & Consulting</a></h2>
+                <p>CICL (UK) - Investment & Consulting – A clean, responsive custom website developed in WordPress to showcase about Investment opportunities and consulting services.</p>
             </div>
             <div className="project">
                 <a href="https://trueviewlandscaping.com" rel="noreferrer" target="_blank">
