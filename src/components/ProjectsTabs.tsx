@@ -5,7 +5,7 @@ import '../assets/styles/Project.scss';
 
 
 export default function PortfolioTabs() {
-  const [activeTab, setActiveTab] = useState("custom-coding")
+  const [activeTab, setActiveTab] = useState("wordpress")
 
   return (
     <div className="">
@@ -19,16 +19,16 @@ export default function PortfolioTabs() {
   <div className="tab-wrapper">
     <div className="tab-buttons">
       <button
-        onClick={() => setActiveTab("custom-coding")}
-        className={`tab-btn ${activeTab === "custom-coding" ? "active custom" : ""}`}
-      >
-        Custom Projects
-      </button>
-      <button
         onClick={() => setActiveTab("wordpress")}
         className={`tab-btn ${activeTab === "wordpress" ? "active wordpress" : ""}`}
       >
         WordPress Projects
+      </button>
+      <button
+        onClick={() => setActiveTab("custom-coding")}
+        className={`tab-btn ${activeTab === "custom-coding" ? "active custom" : ""}`}
+      >
+        Custom Projects
       </button>
     </div>
   </div>

@@ -12,6 +12,16 @@ import housefull from '../assets/images/housefull.png';
 import accelence from '../assets/images/accelence.png';
 import urbannext from '../assets/images/urbannext.png';
 import stories from '../assets/images/stories.png';
+import grabaggs from '../assets/images/grabaggs.png';
+import elite from '../assets/images/elite.png';
+import cutabove from '../assets/images/cutabove.png';
+import saaksham from '../assets/images/saaksham.png';
+import greenly from '../assets/images/greenly.png';
+import trumbul from '../assets/images/trumbul.png';
+import tinkesh from '../assets/images/tinkesh.png';
+import genzephyr from '../assets/images/genzephyr.png';
+import ebc from '../assets/images/ebc.png';
+import soil from '../assets/images/soil.png';
 import digi from '../assets/images/digi.png';
 import cicl from '../assets/images/cicl.png';
 import travelinfoline from '../assets/images/5-min.png';
@@ -30,11 +40,46 @@ export default function WordPressProjects() {
                 <p>Stories Unwired – A clean, responsive marketing agency website developed with Figma to WordPress for providing services and growth of businesses.</p>
             </div>
             <div className="project">
+                <a href="https://grabaggs.com" rel="noreferrer" target="_blank">
+                <img src={grabaggs} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://grabaggs.com" rel="noreferrer" target="_blank">Grabaggs - E-commerce Store</a></h2>
+                <p>A clean, responsive WooCommerce store showcasing trendy backpacks with seamless GST-enabled checkout.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">
+                <img src={cutabove} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">Cut Above - Figma to Wix Sudio</a></h2>
+                <p>A modern, visually refined Wix website developed from Figma layouts to present high-end kitchen and living solutions effectively.</p>
+            </div>
+            <div className="project">
+                <a href="https://genzephyr.com" rel="noreferrer" target="_blank">
+                <img src={genzephyr} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://genzephyr.com" rel="noreferrer" target="_blank">Genzephyr - E-commerce Store</a></h2>
+                <p>A stylish WooCommerce e-commerce site with smooth dropshipping integration for effortless product management.</p>
+            </div>
+            <div className="project">
                 <a href="https://urbannxtinfra.com" rel="noreferrer" target="_blank">
                 <img src={urbannext} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://urbannxtinfra.com" rel="noreferrer" target="_blank">Urbannxt Infra - Investment Company</a></h2>
                 <p>Urbannxt Infra – A clean, responsive website developed in WordPress for Real Estate, Land and Industrial Investment in Gujarat.</p>
+            </div>
+            <div className="project">
+                <a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">
+                <img src={elite} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">8 Elite Nutrition - E-commerce Store</a></h2>
+                <p>A premium WooCommerce store built to present the supplement brand, offering a clean, trustworthy shopping experience and featuring customized offers on purchase.</p>
+            </div>
+            <div className="project">
+                <a href="https://tinkeshabilityfoundation.techaura.in" rel="noreferrer" target="_blank">
+                <img src={tinkesh} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://tinkeshabilityfoundation.techaura.in" rel="noreferrer" target="_blank">Tinkesh Ability Foundation</a></h2>
+                <p>A modern WordPress platform created to showcase the Tinkesh Ability Foundation’s work in advancing mobility and psychosocial wellness, along with their inspiring achievements and stories.</p>
             </div>
             <div className="project">
                 <a href="https://accelance.io" rel="noreferrer" target="_blank">
@@ -43,6 +88,13 @@ export default function WordPressProjects() {
                <h2><a href="https://accelance.io" rel="noreferrer" target="_blank">Accelance - Figma to Wordpress</a></h2>
                 <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
             </div>
+            <div className="project">
+                <a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">
+                <img src={soil} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
+                <p>A robust WordPress/WooCommerce website built to deliver agricultural solutions and farming products, offering farmers seamless access to quality supplies, expert guidance, and a reliable e-commerce experience.</p>
+            </div>
             {/* <div className="project">
                 <a href="https://digieminence.co.in" rel="noreferrer" target="_blank">
                 <img src={digi} className="zoom" alt="thumbnail" width="100%"/>
@@ -50,6 +102,27 @@ export default function WordPressProjects() {
                <h2><a href="https://digieminence.co.in" rel="noreferrer" target="_blank">Digi Eminence - Digital Marketing Agency</a></h2>
                 <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
             </div> */}
+            <div className="project">
+                <a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">
+                <img src={greenly} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">Greenly Mortgage - Mortgage Solutions</a></h2>
+                <p>A clean, intuitive WordPress site offering comprehensive mortgage services, helping clients find the right home financing options with clarity and confidence.</p>
+            </div>
+            <div className="project">
+                <a href="https://saaksham.com" rel="noreferrer" target="_blank">
+                <img src={saaksham} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://saaksham.com" rel="noreferrer" target="_blank">Saaksham - Blogging Website</a></h2>
+                <p>A sleek, content-rich WordPress blog designed to share insights, stories, and expert perspectives, delivering a thoughtful reading experience for curious and engaged readers.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.trumbullcountyhistory.com" rel="noreferrer" target="_blank">
+                <img src={trumbul} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.trumbullcountyhistory.com" rel="noreferrer" target="_blank">Trumbull County History - Historical Museum</a></h2>
+                <p>A comprehensive WordPress site of over 60 pages dedicated to the Trumbull County Historical Society, showcasing rich archival collections, exhibits, and community stories that preserve and celebrate the region’s heritage.</p>
+            </div>
             <div className="project">
                 <a href="https://www.mittulshah.com/" rel="noreferrer" target="_blank">
                 <img src={mittul} className="zoom" alt="thumbnail" width="100%"/>
@@ -114,11 +187,18 @@ export default function WordPressProjects() {
                 <p>SotoTrim – A sleek WordPress website showcasing expert automotive trimming and restyling services with a strong visual portfolio.</p>
             </div>
             <div className="project">
-                <a href="https://housefull.travelinfoline.us" rel="noreferrer" target="_blank">
+                <a href="https://housefullentertainment.com" rel="noreferrer" target="_blank">
                 <img src={housefull} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://housefull.travelinfoline.us" rel="noreferrer" target="_blank">Housefull Entertainment - Landing Page</a></h2>
+               <h2><a href="https://housefullentertainment.com" rel="noreferrer" target="_blank">Housefull Entertainment - Landing Page</a></h2>
                 <p>Housefull Entertainment – A clean, responsive landing page developed in WordPress to showcase about Event Management and services.</p>
+            </div>
+            <div className="project">
+                <a href="https://ebc.tinkeshabilityfoundation.org" rel="noreferrer" target="_blank">
+                <img src={ebc} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://ebc.tinkeshabilityfoundation.org" rel="noreferrer" target="_blank">Everest Base Camp 2026 - Landing Page</a></h2>
+                <p>A captivating WordPress landing page built to promote the Tinkesh Ability Foundation’s Everest Base Camp 2026 expedition, inspiring visitors with stories, event details, and opportunities to support or join the adventure.</p>
             </div>
             <div className="project">
                 <a href="https://yipeezy.net" rel="noreferrer" target="_blank">
