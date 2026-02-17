@@ -24,7 +24,21 @@ import ebc from '../assets/images/ebc.png';
 import soil from '../assets/images/soil.png';
 import digi from '../assets/images/digi.png';
 import cicl from '../assets/images/cicl.png';
+import decrayze from '../assets/images/decrayze.png';
+import vavo from '../assets/images/vavo.png';
 import travelinfoline from '../assets/images/5-min.png';
+import stelliam from '../assets/images/stelliam.png';
+import podcrafter from '../assets/images/podcrafter.png';
+import marudeva from '../assets/images/marudeva.png';
+import fp from '../assets/images/fp.png';
+import cf from '../assets/images/cf.png';
+import melavi from '../assets/images/melavi.png';
+import logsday from '../assets/images/logsday.png';
+import ciclevent from '../assets/images/ciclevent.png';
+import arken from '../assets/images/arken.png';
+import cheerup from '../assets/images/cheerup.png';
+import ora from '../assets/images/ora.png';
+import citycool from '../assets/images/citycool.png';
 import '../assets/styles/Project.scss';
 
 export default function WordPressProjects() {
@@ -47,6 +61,13 @@ export default function WordPressProjects() {
                 <p>A clean, responsive WooCommerce store showcasing trendy backpacks with seamless GST-enabled checkout.</p>
             </div>
             <div className="project">
+                <a href="https://dracyze.com" rel="noreferrer" target="_blank">
+                <img src={decrayze} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://dracyze.com" rel="noreferrer" target="_blank">Dracyze - E-commerce Store</a></h2>
+                <p>A clean, responsive, premium look WooCommerce store showcasing trendy clothing collections with seamless fast and smooth checkout system.</p>
+            </div>
+            <div className="project">
                 <a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">
                 <img src={cutabove} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
@@ -54,11 +75,46 @@ export default function WordPressProjects() {
                 <p>A modern, visually refined Wix website developed from Figma layouts to present high-end kitchen and living solutions effectively.</p>
             </div>
             <div className="project">
+                <a href="https://podcrafter.techaura.in" rel="noreferrer" target="_blank">
+                <img src={podcrafter} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://podcrafter.techaura.in" rel="noreferrer" target="_blank">Podcrafter Studio - Podcast Platform</a></h2>
+                <p>A modern, visually refined WordPress website for a podcast platform agency with seamless UI effects and user-friendly interface.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.vavodigital.techaura.in" rel="noreferrer" target="_blank">
+                <img src={vavo} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.vavodigital.techaura.in" rel="noreferrer" target="_blank">Vavo Digital - Influencer Marketing Agency</a></h2>
+                <p>A modern, visually refined website developed from different design references layouts to present high-end influencer marketing services effectively.</p>
+            </div>
+            <div className="project">
+                <a href="https://marudevaa.techaura.in" rel="noreferrer" target="_blank">
+                <img src={marudeva} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://marudevaa.techaura.in" rel="noreferrer" target="_blank">Marudeva - E-commerce Store</a></h2>
+                <p>A modern, visually refined website developed from different design references layouts to present high-end e-commerce products effectively.</p>
+            </div>
+            <div className="project">
+                <a href="https://stelliamholidays.com" rel="noreferrer" target="_blank">
+                <img src={stelliam} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://stelliamholidays.com" rel="noreferrer" target="_blank">Stelliam Holidays - Travel & Tourism</a></h2>
+                <p>A modern, visually refined, smooth website developed from different design references layouts to present high-end travel and tourism services effectively.</p>
+            </div>
+            <div className="project">
                 <a href="https://genzephyr.com" rel="noreferrer" target="_blank">
                 <img src={genzephyr} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://genzephyr.com" rel="noreferrer" target="_blank">Genzephyr - E-commerce Store</a></h2>
                 <p>A stylish WooCommerce e-commerce site with smooth dropshipping integration for effortless product management.</p>
+            </div>
+            <div className="project">
+                <a href="https://test.techaura.in/" rel="noreferrer" target="_blank">
+                <img src={fp} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://test.techaura.in/" rel="noreferrer" target="_blank">First Partner - Investment and Groeth Business</a></h2>
+                <p>A stylish modern Figma to WordPress 18-20 pages site with smooth transitions and responsive design.</p>
             </div>
             <div className="project">
                 <a href="https://urbannxtinfra.com" rel="noreferrer" target="_blank">
@@ -75,6 +131,27 @@ export default function WordPressProjects() {
                 <p>A premium WooCommerce store built to present the supplement brand, offering a clean, trustworthy shopping experience and featuring customized offers on purchase.</p>
             </div>
             <div className="project">
+                <a href="https://arkenroofing.com" rel="noreferrer" target="_blank">
+                <img src={arken} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://arkenroofing.com" rel="noreferrer" target="_blank">Arken Roofing - Roofing Company</a></h2>
+                <p>A clean, responsive full customized premium website developed in WordPress for roofing services in USA.</p>
+            </div>
+            <div className="project">
+                <a href="https://melavi.in" rel="noreferrer" target="_blank">
+                <img src={melavi} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://melavi.in" rel="noreferrer" target="_blank">Melavi - E-commerce Store</a></h2>
+                <p>A clean, responsive, premium look WooCommerce store showcasing trendy clothing collections with seamless fast and smooth checkout system.</p>
+            </div>
+            <div className="project">
+                <a href="https://creatingfutures.in" rel="noreferrer" target="_blank">
+                <img src={cf} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://creatingfutures.in" rel="noreferrer" target="_blank">Creating Futures - NGO</a></h2>
+                <p>A modern WordPress platform created to showcase the Creating Futures work in advancing children education and women empowerment, along with their inspiring achievements and stories.</p>
+            </div>
+            <div className="project">
                 <a href="https://tinkeshabilityfoundation.techaura.in" rel="noreferrer" target="_blank">
                 <img src={tinkesh} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
@@ -89,25 +166,53 @@ export default function WordPressProjects() {
                 <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
             </div>
             <div className="project">
+                <a href="https://events.cicluk.co.uk" rel="noreferrer" target="_blank">
+                <img src={ciclevent} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://events.cicluk.co.uk" rel="noreferrer" target="_blank">CICL Events - Registration Landing Page</a></h2>
+                <p>A clean, responsive custom landing page for ticket registration optimized using funnel system to nurture leads and auto response enquiry features, showcasing about Business and automated response.</p>
+            </div>
+            <div className="project">
+                <a href="https://admin.madversemedia.com" rel="noreferrer" target="_blank">
+                <img src={citycool} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://admin.madversemedia.com" rel="noreferrer" target="_blank">City Cool - Business Landing Page</a></h2>
+                <p>A clean, responsive custom landing page for City Cool, optimized using funnel system to nurture leads and auto response enquiry features, showcasing about business and services.</p>
+            </div>
+            <div className="project">
+                <a href="https://cheersup.co.in" rel="noreferrer" target="_blank">
+                <img src={cheerup} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://cheersup.co.in" rel="noreferrer" target="_blank">Cheer Up - Business Landing Page</a></h2>
+                <p>A clean, responsive custom landing page for Cheer Up, optimized for showcasing about business product.</p>
+            </div>
+            <div className="project">
                 <a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">
                 <img src={soil} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
                 <p>A robust WordPress/WooCommerce website built to deliver agricultural solutions and farming products, offering farmers seamless access to quality supplies, expert guidance, and a reliable e-commerce experience.</p>
             </div>
-            {/* <div className="project">
+            <div className="project">
                 <a href="https://digieminence.co.in" rel="noreferrer" target="_blank">
                 <img src={digi} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://digieminence.co.in" rel="noreferrer" target="_blank">Digi Eminence - Digital Marketing Agency</a></h2>
                 <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
-            </div> */}
+            </div>
             <div className="project">
                 <a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">
                 <img src={greenly} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">Greenly Mortgage - Mortgage Solutions</a></h2>
                 <p>A clean, intuitive WordPress site offering comprehensive mortgage services, helping clients find the right home financing options with clarity and confidence.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.logsday.com" rel="noreferrer" target="_blank">
+                <img src={logsday} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.logsday.com" rel="noreferrer" target="_blank">LogsDay - Daily Tips & Blogging</a></h2>
+                <p>A clean, intuitive WordPress site offering comprehensive blogging and daily tips, helping readers stay informed and inspired with engaging content.</p>
             </div>
             <div className="project">
                 <a href="https://saaksham.com" rel="noreferrer" target="_blank">
@@ -213,6 +318,13 @@ export default function WordPressProjects() {
                 </a>
                 <h2><a href="https://travelinfoline.us" rel="noreferrer" target="_blank">Travel Info Line</a></h2>
                 <p>Travel Info Line – An informative WordPress site offering travel guides, tips, and destination insights for U.S. travelers.</p>
+            </div>
+            <div className="project">
+                <a href="https://orafinancials.com" rel="noreferrer" target="_blank">
+                <img src={ora} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://orafinancials.com" rel="noreferrer" target="_blank">Ora Financials</a></h2>
+                <p>Ora Financials – A professional WordPress website showcasing financial services and consulting expertise.</p>
             </div>
         </div>
     </div>
