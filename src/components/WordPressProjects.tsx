@@ -311,6 +311,7 @@ export default function WordPressProjects() {
                 </a>
                <h2><a href="https://yipeezy.net" rel="noreferrer" target="_blank">Yipeezy LLC - Custom Landing Page</a></h2>
                 <p>Yipeezy LLC – A clean, responsive custom landing page developed in WordPress to showcase about Business and consulting services.</p>
+                
             </div>
             <div className="project">
                 <a href="https://travelinfoline.us" rel="noreferrer" target="_blank">
