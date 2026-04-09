@@ -53,13 +53,13 @@ export default function WordPressProjects() {
                <h2><a href="https://storiesunwired.com" rel="noreferrer" target="_blank">Stories Unwired - Figma to Wordpress</a></h2>
                 <p>Stories Unwired – A clean, responsive marketing agency website developed with Figma to WordPress for providing services and growth of businesses.</p>
             </div>
-            <div className="project">
+            {/* <div className="project">
                 <a href="https://grabaggs.com" rel="noreferrer" target="_blank">
                 <img src={grabaggs} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://grabaggs.com" rel="noreferrer" target="_blank">Grabaggs - E-commerce Store</a></h2>
                 <p>A clean, responsive WooCommerce store showcasing trendy backpacks with seamless GST-enabled checkout.</p>
-            </div>
+            </div> */}
             <div className="project">
                 <a href="https://dracyze.com" rel="noreferrer" target="_blank">
                 <img src={decrayze} className="zoom" alt="thumbnail" width="100%"/>
@@ -82,10 +82,10 @@ export default function WordPressProjects() {
                 <p>A modern, visually refined WordPress website for a podcast platform agency with seamless UI effects and user-friendly interface.</p>
             </div>
             <div className="project">
-                <a href="https://www.vavodigital.techaura.in" rel="noreferrer" target="_blank">
+                <a href="https://vavodigital.com" rel="noreferrer" target="_blank">
                 <img src={vavo} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://www.vavodigital.techaura.in" rel="noreferrer" target="_blank">Vavo Digital - Influencer Marketing Agency</a></h2>
+               <h2><a href="https://vavodigital.com" rel="noreferrer" target="_blank">Vavo Digital - Influencer Marketing Agency</a></h2>
                 <p>A modern, visually refined website developed from different design references layouts to present high-end influencer marketing services effectively.</p>
             </div>
             <div className="project">
@@ -187,10 +187,10 @@ export default function WordPressProjects() {
                 <p>A clean, responsive custom landing page for Cheer Up, optimized for showcasing about business product.</p>
             </div>
             <div className="project">
-                <a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">
+                <a href="https://soildidi.com" rel="noreferrer" target="_blank">
                 <img src={soil} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://soildoctor.techaura.in" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
+               <h2><a href="https://soildidi.com" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
                 <p>A robust WordPress/WooCommerce website built to deliver agricultural solutions and farming products, offering farmers seamless access to quality supplies, expert guidance, and a reliable e-commerce experience.</p>
             </div>
             <div className="project">
