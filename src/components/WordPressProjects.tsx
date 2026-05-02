@@ -12,7 +12,7 @@ import housefull from '../assets/images/housefull.png';
 import accelence from '../assets/images/accelence.png';
 import urbannext from '../assets/images/urbannext.png';
 import stories from '../assets/images/stories.png';
-import grabaggs from '../assets/images/grabaggs.png';
+// import grabaggs from '../assets/images/grabaggs.png';
 import elite from '../assets/images/elite.png';
 import cutabove from '../assets/images/cutabove.png';
 import saaksham from '../assets/images/saaksham.png';
