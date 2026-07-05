@@ -18,7 +18,8 @@ import cutabove from '../assets/images/cutabove.png';
 import saaksham from '../assets/images/saaksham.png';
 import greenly from '../assets/images/greenly.png';
 import trumbul from '../assets/images/trumbul.png';
-import glasplex from '../assets/images/tinkesh.png';
+import glasplex from '../assets/images/glasplex.png';
+import uttam from '../assets/images/uttam.png';
 import genzephyr from '../assets/images/genzephyr.png';
 import turnkey from '../assets/images/turnkey.png';
 import supplementfarm from '../assets/images/supplementfarm.png';
@@ -71,7 +72,7 @@ export default function WordPressProjects() {
             </div>
             <div className="project">
                 <a href="https://uttamsfurniture.in" rel="noreferrer" target="_blank">
-                <img src={fp} className="zoom" alt="thumbnail" width="100%"/>
+                <img src={uttam} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://uttamsfurniture.in/" rel="noreferrer" target="_blank">Uttam's Furniture - Furniture and Interior Designs</a></h2>
                 <p>A stylish modern WordPress website with 8-10 pages, featuring smooth transitions and responsive design.</p>
@@ -90,13 +91,13 @@ export default function WordPressProjects() {
                <h2><a href="https://turnkeypropertyinspectors.com" rel="noreferrer" target="_blank">Turn Key Property Inspectors – Professional Home Inspection Services</a></h2>
                 <p>Developed a modern, responsive website for a certified home inspection company, showcasing residential inspection services, service areas, company credentials, and an intuitive user experience for home buyers and property owners.</p>
             </div>
-            {/* <div className="project">
+            <div className="project">
                 <a href="https://glasplexplasti.wpenginepowered.com" rel="noreferrer" target="_blank">
                 <img src={glasplex} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://glasplexplasti.wpenginepowered.com" rel="noreferrer" target="_blank">Glasplex Plastics – Industrial Plastic Sheet Supplier & Custom Fabrication</a></h2>
                 <p>Designed and developed a professional business website for an industrial plastic sheet supplier, featuring product categories, custom fabrication solutions, responsive design, and optimized performance.</p>
-            </div> */}
+            </div>
             <div className="project">
                 <a href="https://pamco.ca" rel="noreferrer" target="_blank">
                 <img src={pamco} className="zoom" alt="thumbnail" width="100%"/>
