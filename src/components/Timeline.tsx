@@ -17,6 +17,25 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="MARCH 2025  - PRESENT"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Freelance Full Stack Developer</h3>
+            <p>
+            ➜ Developed and deployed custom full-stack web applications for <b>startups and businesses</b>.
+            <br />
+            ➜ <b>Collaborated directly with clients</b> to gather requirements and deliver scalable solutions.
+            <br />
+            ➜  Integrated REST APIs, payment gateways, authentication, and third-party services.
+            <br />
+            ➜ Optimized website performance, responsiveness, SEO, and Core Web Vitals.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="JUNE 2024 - FEB 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -24,15 +43,15 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
             <h4 className="vertical-timeline-element-subtitle comName">WsCube Tech</h4>
             <p>
-            <ArrowRight className="pointers" /> Primary responsibilities included <b>design, research, development, and
+            ➜ Primary responsibilities included <b>design, research, development, and
             maintenance of the websites</b>.
             <br />
-            <ArrowRight className="pointers" /> <b>Developed and maintained user interfaces</b> for web applications using modern
+            ➜ <b>Developed and maintained user interfaces</b> for web applications using modern
             frameworks.
             <br />
-            <ArrowRight className="pointers" />  <b>Communicating with clients regarding project</b> requirements and specifications
+            ➜  <b>Communicating with clients regarding project</b> requirements and specifications
             <br />
-            <ArrowRight className="pointers" /> Create <b>APIs for mobile & web apps</b>.
+            ➜ Create <b>APIs for mobile & web apps</b>.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,15 +63,15 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
             <h4 className="vertical-timeline-element-subtitle comName"> Iway Digital</h4>
             <p>
-            <ArrowRight className="pointers" /> Primary responsibilities included <b>design, research, development, and
+            ➜ Primary responsibilities included <b>design, research, development, and
             maintenance of the websites</b>.
             <br />
-            <ArrowRight className="pointers" /> <b>Communicating with clients</b> regarding project requirements and
+            ➜ <b>Communicating with clients</b> regarding project requirements and
             specifications.
             <br />
-            <ArrowRight className="pointers" /> Implemented <b>responsive designs</b> and ensured <b>cross-browser compatibility</b>.
+            ➜ Implemented <b>responsive designs</b> and ensured <b>cross-browser compatibility</b>.
             <br />
-            <ArrowRight className="pointers" /><b> Wrote clean, reusable, and maintainable code</b> while adhering to best practices.
+            ➜ <b> Wrote clean, reusable, and maintainable code</b> while adhering to best practices.
             </p>
           </VerticalTimelineElement>
         
