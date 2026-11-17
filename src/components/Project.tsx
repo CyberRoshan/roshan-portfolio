@@ -18,6 +18,8 @@ import plantour from '../assets/images/plantour.png';
 import iconMarket from '../assets/images/iconmarket.png';
 import zenlegal from '../assets/images/zenlegal.png';
 import zenadmin from '../assets/images/zenadmin.png';
+import pranzo from '../assets/images/pranzo.png';
+import aise from '../assets/images/aise.png';
 import munch from '../assets/images/munch.png';
 import '../assets/styles/Project.scss';
 
@@ -60,19 +62,33 @@ function Project() {
                 <p>Developed a fully responsive Admin Dashboard in React.js converting Figma designs into clean, optimized code. Built 42+ custom pages and implemented a functional backend using Express, followed by complete deployment.</p>
             </div>
             <div className="project">
+            <a href="https://sushmagroup.realtynivesh.com" rel="noreferrer" target="_blank">
+                <img src={mock09} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <h2><a href="https://sushmagroup.realtynivesh.com" rel="noreferrer" target="_blank">Sushma Group Real State</a></h2>
+                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
+            </div>
+             <div className="project">
+                <a href="https://pranzolounge.com" rel="noreferrer" target="_blank">
+                <img src={pranzo} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://pranzolounge.com" rel="noreferrer" target="_blank">Pranzo Lounge – Mediterranean & Middle Eastern Restaurant</a></h2>
+                <p>Designed and developed an attractive restaurant website showcasing Mediterranean and Middle Eastern cuisine, featuring menu browsing, online ordering, table reservations, catering services, and event information for an engaging dining experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://aiseorg.info" rel="noreferrer" target="_blank">
+                <img src={aise} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://aiseorg.info" rel="noreferrer" target="_blank">AISE – Sports & Athletic Organization</a></h2>
+                <p>Developed a website for a sports-focused organization, presenting its activities, initiatives, and information through a structured layout designed to communicate its mission and connect with its audience.</p>
+            </div>
+            <div className="project">
             <div onClick={openLinks} className="cursor-pointer">
                 <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
                 </div>
                 <h2><div className="cursor-pointer" onClick={openLinks}>Frank and Oak Ecommerce</div></h2>
                 <p>Developed an ecommerce platform with customer-facing site and admin panel for product,
                 category, and order management.</p>
-            </div>
-            <div className="project">
-            <a href="https://sushmagroup.realtynivesh.com" rel="noreferrer" target="_blank">
-                <img src={mock09} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-                <h2><a href="https://sushmagroup.realtynivesh.com" rel="noreferrer" target="_blank">Sushma Group Real State</a></h2>
-                <p>Developed the Sushma Group website with responsive and visually appealing design.</p>
             </div>
             <div className="project">
                 <a href="https://cyberroshan.github.io/lawpreptutorial.github.io" rel="noreferrer" target="_blank">

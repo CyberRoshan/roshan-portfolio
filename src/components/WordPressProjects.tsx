@@ -49,6 +49,27 @@ import citycool from '../assets/images/citycool.png';
 import ultucup from '../assets/images/ultucup.png';
 import remodelingusa from '../assets/images/remodelingusa.png';
 import goglobe from '../assets/images/goglobe.png';
+import saudewla from '../assets/images/saudewla.png';
+import toosuns from '../assets/images/toosuns.png';
+import shieldora from '../assets/images/shieldora.png';
+import kgba from '../assets/images/kgba.png';
+import bsui from '../assets/images/bsui.png';
+import drug from '../assets/images/drug.png';
+import ascend from '../assets/images/ascend.png';
+import spades from '../assets/images/spadepool.png';
+import zorix from '../assets/images/zorixx.png';
+import ozlaw from '../assets/images/law.png';
+import anns from '../assets/images/anns.png';
+import ciel from '../assets/images/ciel.png';
+import dhthreapy from '../assets/images/dhthreapy.png';
+import precision from '../assets/images/precisions.png';
+import oak from '../assets/images/oak.png';
+import rtu from '../assets/images/rtu.png';
+import travel from '../assets/images/travel.png';
+import norcal from '../assets/images/norcal.png';
+import finefinish from '../assets/images/finefinish.png';
+import banw from '../assets/images/bandw.png';
+import massive from '../assets/images/massive.png';
 import '../assets/styles/Project.scss';
 
 export default function WordPressProjects() {
@@ -62,6 +83,69 @@ export default function WordPressProjects() {
                 </a>
                <h2><a href="https://storiesunwired.com" rel="noreferrer" target="_blank">Stories Unwired - Figma to Wordpress</a></h2>
                 <p>Stories Unwired – A clean, responsive marketing agency website developed with Figma to WordPress for providing services and growth of businesses.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">
+                <img src={cutabove} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">Cut Above - Figma to Wix Sudio</a></h2>
+                <p>A modern, visually refined Wix website developed from Figma layouts to present high-end kitchen and living solutions effectively.</p>
+            </div>
+            <div className="project">
+                <a href="https://toosuns.com" rel="noreferrer" target="_blank">
+                <img src={toosuns} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://toosuns.com" rel="noreferrer" target="_blank">Toosuns – Creative & Film Production Agency</a></h2>
+                <p>Designed and developed a premium website for a creative production agency, showcasing creative direction, brand campaigns, commercial photography, film production, and post-production services through an immersive visual experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://cielperfumes.com" rel="noreferrer" target="_blank">
+                <img src={ciel} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://cielperfumes.com" rel="noreferrer" target="_blank">CIEL Perfumes – Luxury Fragrance & Perfume Store</a></h2>
+                <p>Designed and developed a premium e-commerce website for a fragrance brand, showcasing men's, women's, and unisex perfume collections with elegant product presentation, organized shopping categories, and a smooth purchasing experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://saudewala.in" rel="noreferrer" target="_blank">
+                <img src={saudewla} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://saudewala.in" rel="noreferrer" target="_blank">Saudewala – Refurbished Laptops & IT Equipment</a></h2>
+                <p>Developed a responsive e-commerce website for a refurbished IT equipment retailer, showcasing laptops, servers, workstations, SSDs, and computer accessories with organized product categories, easy navigation, and a seamless online shopping experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.brandscaleupinc.com" rel="noreferrer" target="_blank">
+                <img src={bsui} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.brandscaleupinc.com" rel="noreferrer" target="_blank">Brand Scale Up Inc. – Branding & Digital Marketing</a></h2>
+                <p>Developed a professional business website for a branding and digital growth agency, presenting its brand development solutions, marketing services, and business growth offerings through a modern and engaging online presence.</p>
+            </div>
+            <div className="project">
+                <a href="https://podcrafter.studio" rel="noreferrer" target="_blank">
+                <img src={podcrafter} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://podcrafter.studio" rel="noreferrer" target="_blank">Podcrafter Studio - Podcast Platform</a></h2>
+                <p>A modern, visually refined WordPress website for a podcast platform agency with seamless UI effects and user-friendly interface.</p>
+            </div>
+            <div className="project">
+                <a href="https://zorixx.ai" rel="noreferrer" target="_blank">
+                <img src={zorix} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://zorixx.ai" rel="noreferrer" target="_blank">Zorixx – AI-Powered Governance, Risk & Cybersecurity</a></h2>
+                <p>Designed and developed a professional corporate website for an AI-driven governance and cybersecurity firm, showcasing audit, assurance, compliance, risk management, and technology consulting solutions with a modern business-focused design.</p>
+            </div>
+            <div className="project">
+                <a href="https://drugdiariespodcast.co.uk" rel="noreferrer" target="_blank">
+                <img src={drug} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://drugdiariespodcast.co.uk" rel="noreferrer" target="_blank">Drug Diaries – Healthcare & Life Sciences Podcast</a></h2>
+                <p>Designed and developed an engaging podcast website focused on healthcare, medicine, and life sciences, featuring expert conversations, industry insights, emerging technologies, and thought leadership from professionals shaping the future of healthcare.</p>
+            </div>
+            <div className="project">
+                <a href="https://marudeva.com" rel="noreferrer" target="_blank">
+                <img src={marudeva} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://marudeva.com" rel="noreferrer" target="_blank">Marudeva - E-commerce Store</a></h2>
+                <p>A modern, visually refined website developed from different design references layouts to present high-end e-commerce products effectively.</p>
             </div>
             <div className="project">
                 <a href="https://firstpartnerconsulting.com/" rel="noreferrer" target="_blank">
@@ -78,18 +162,95 @@ export default function WordPressProjects() {
                 <p>A stylish modern WordPress website with 8-10 pages, featuring smooth transitions and responsive design.</p>
             </div>
             <div className="project">
-                <a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">
-                <img src={cutabove} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://kgba.co.uk" rel="noreferrer" target="_blank">
+                <img src={kgba} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://www.cutabove.co.in" rel="noreferrer" target="_blank">Cut Above - Figma to Wix Sudio</a></h2>
-                <p>A modern, visually refined Wix website developed from Figma layouts to present high-end kitchen and living solutions effectively.</p>
+               <h2><a href="https://kgba.co.uk" rel="noreferrer" target="_blank">KGBA – Kenya Global Business Alliance</a></h2>
+                <p>Designed and developed a professional website for a business networking and development organization, featuring membership opportunities, networking initiatives, upcoming activities, and resources to support entrepreneurs, professionals, and investors.</p>
             </div>
             <div className="project">
-                <a href="https://turnkeypropertyinspectors.com" rel="noreferrer" target="_blank">
-                <img src={turnkey} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://vavodigital.com" rel="noreferrer" target="_blank">
+                <img src={vavo} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://turnkeypropertyinspectors.com" rel="noreferrer" target="_blank">Turn Key Property Inspectors – Professional Home Inspection Services</a></h2>
-                <p>Developed a modern, responsive website for a certified home inspection company, showcasing residential inspection services, service areas, company credentials, and an intuitive user experience for home buyers and property owners.</p>
+               <h2><a href="https://vavodigital.com" rel="noreferrer" target="_blank">Vavo Digital - Influencer Marketing Agency</a></h2>
+                <p>A modern, visually refined website developed from different design references layouts to present high-end influencer marketing services effectively.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.shieldora.shop" rel="noreferrer" target="_blank">
+                <img src={shieldora} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.shieldora.shop" rel="noreferrer" target="_blank">Shieldora – Automotive Care & Car Accessories</a></h2>
+                <p>Developed a modern, responsive e-commerce website for an automotive care brand, showcasing car exterior and interior products, accessories, and detailing kits with organized product categories and a smooth shopping experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://precisionappraisalsca.com" rel="noreferrer" target="_blank">
+                <img src={precision} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://precisionappraisalsca.com" rel="noreferrer" target="_blank">Precision Appraisal Services – Real Estate Appraisal & Valuation</a></h2>
+                <p>Designed and developed a professional website for a real estate appraisal company, featuring residential property valuations, estate and divorce appraisals, tax appeal services, rental analysis, and property measurement solutions.</p>
+            </div>
+            <div className="project">
+                <a href="https://ozlawtx.com" rel="noreferrer" target="_blank">
+                <img src={ozlaw} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://ozlawtx.com" rel="noreferrer" target="_blank">OZ Law – Personal Injury & Accident Attorneys</a></h2>
+                <p>Developed a professional law firm website for a personal injury practice, featuring legal services covering car accidents, workplace injuries, slip and falls, wrongful death, and other injury claims with clear service navigation and consultation options.</p>
+            </div>
+            <div className="project">
+                <a href="https://annsnaturals.com" rel="noreferrer" target="_blank">
+                <img src={anns} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://annsnaturals.com" rel="noreferrer" target="_blank">Ann’s Naturals – Natural Coffee & Specialty Products</a></h2>
+                <p>Developed a clean, responsive e-commerce website for a natural products brand, featuring its coffee offerings, product information, online shopping functionality, and a streamlined browsing experience.</p>
+            </div>
+            <div className="project">
+                <a href="https://dhtherapyatlanta.com" rel="noreferrer" target="_blank">
+                <img src={dhthreapy} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://dhtherapyatlanta.com" rel="noreferrer" target="_blank">DH Therapy Atlanta – Pediatric Therapy Services</a></h2>
+                <p>Developed a professional healthcare website for a pediatric therapy practice, showcasing occupational, physical, speech, and ABA therapy services, along with evaluations, insurance information, and accessible resources for families.</p>
+            </div>
+            <div className="project">
+                <a href="https://oakcityfloorsnc.com" rel="noreferrer" target="_blank">
+                <img src={oak} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://oakcityfloorsnc.com" rel="noreferrer" target="_blank">Oak City Floors – Flooring Installation & Home Improvement</a></h2>
+                <p>Developed a modern, responsive website for a professional flooring contractor, showcasing flooring services, installation expertise, service areas, and free estimate requests with a user-friendly experience for homeowners.</p>
+            </div>
+            <div className="project">
+                <a href="https://travelinfoline.in" rel="noreferrer" target="_blank">
+                <img src={travel} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://travelinfoline.in" rel="noreferrer" target="_blank">Travel Infoline – Travel Agency & Holiday Packages</a></h2>
+                <p>Developed an engaging travel website for a travel agency, showcasing international tour packages, popular destinations, holiday deals, travel information, and enquiry options with an easy-to-navigate experience for travelers.</p>
+            </div>
+            <div className="project">
+                <a href="https://norcalaccentwalls.com" rel="noreferrer" target="_blank">
+                <img src={norcal} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://norcalaccentwalls.com" rel="noreferrer" target="_blank">NorCal Accent Walls – Custom Accent Walls & Interior Design</a></h2>
+                <p>Designed and developed a professional website for a custom interior wall design company, showcasing accent wall styles, board and batten, wainscoting, geometric patterns, custom cabinetry, and media wall solutions.</p>
+            </div>
+            <div className="project">
+                <a href="https://finefinishastg.wpenginepowered.com" rel="noreferrer" target="_blank">
+                <img src={finefinish} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://finefinishastg.wpenginepowered.com" rel="noreferrer" target="_blank">Fine Finish Auto Detail – Mobile Auto Detailing Services</a></h2>
+                <p>Developed a modern, responsive website for a professional mobile auto detailing company, showcasing ceramic coating, paint correction, interior detailing, and complete vehicle care services with convenient quote requests and service information.</p>
+            </div>
+            <div className="project">
+                <a href="https://amritresidency.in" rel="noreferrer" target="_blank">
+                <img src={amrit} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://amritresidency.in" rel="noreferrer" target="_blank">Amrit Residency – Premium PG & Rental Accommodation</a></h2>
+                <p>Developed a modern, responsive website for a premium PG and rental accommodation provider, showcasing comfortable living spaces, amenities, and a seamless user experience for students and working professionals.</p>
+            </div>
+            <div className="project">
+                <a href="https://remodelingusa.wpenginepowered.com" rel="noreferrer" target="_blank">
+                <img src={remodelingusa} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://remodelingusa.wpenginepowered.com" rel="noreferrer" target="_blank">Remodeling USA – Home Remodeling & Renovation Services</a></h2>
+                <p>Developed a modern, responsive website for a home remodeling company, showcasing renovation services, design expertise, and value-driven home improvement solutions with a seamless and engaging user experience.</p>
             </div>
             <div className="project">
                 <a href="https://glasplexplasti.wpenginepowered.com" rel="noreferrer" target="_blank">
@@ -106,53 +267,53 @@ export default function WordPressProjects() {
                 <p>Developed a clean, responsive website for a healthcare brand, showcasing sexual and reproductive health products with an accessible, user-friendly design and optimized browsing experience.</p>
             </div>
             <div className="project">
-                <a href="https://remodelingusa.wpenginepowered.com" rel="noreferrer" target="_blank">
-                <img src={remodelingusa} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://remodelingusa.wpenginepowered.com" rel="noreferrer" target="_blank">Remodeling USA – Home Remodeling & Renovation Services</a></h2>
-                <p>Developed a modern, responsive website for a home remodeling company, showcasing renovation services, design expertise, and value-driven home improvement solutions with a seamless and engaging user experience.</p>
-            </div>
-            <div className="project">
                 <a href="https://monarchtexascleaning.com" rel="noreferrer" target="_blank">
                 <img src={monarch} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
                <h2><a href="https://monarchtexascleaning.com" rel="noreferrer" target="_blank">Monarch Texas Cleaning Services – Residential & Commercial Cleaning</a></h2>
                 <p>Developed a clean, responsive website for a professional cleaning company, showcasing residential and commercial cleaning services, service areas, and an easy-to-navigate user experience for customers seeking reliable cleaning solutions.</p>
             </div>
-                    <div className="project">
-                <a href="https://dracyze.com" rel="noreferrer" target="_blank">
-                <img src={decrayze} className="zoom" alt="thumbnail" width="100%"/>
+            <div className="project">
+                <a href="https://ascendintegratedwealth.com" rel="noreferrer" target="_blank">
+                <img src={ascend} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://dracyze.com" rel="noreferrer" target="_blank">Dracyze - E-commerce Store</a></h2>
-                <p>A clean, responsive, premium look WooCommerce store showcasing trendy clothing collections with seamless fast and smooth checkout system.</p>
-            </div>
-             <div className="project">
-                <a href="https://marudeva.com" rel="noreferrer" target="_blank">
-                <img src={marudeva} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://marudeva.com" rel="noreferrer" target="_blank">Marudeva - E-commerce Store</a></h2>
-                <p>A modern, visually refined website developed from different design references layouts to present high-end e-commerce products effectively.</p>
-            </div>
-                    <div className="project">
-                <a href="https://amritresidency.in" rel="noreferrer" target="_blank">
-                <img src={amrit} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://amritresidency.in" rel="noreferrer" target="_blank">Amrit Residency – Premium PG & Rental Accommodation</a></h2>
-                <p>Developed a modern, responsive website for a premium PG and rental accommodation provider, showcasing comfortable living spaces, amenities, and a seamless user experience for students and working professionals.</p>
+               <h2><a href="https://ascendintegratedwealth.com" rel="noreferrer" target="_blank">Ascend Integrated Wealth – Financial Planning & Wealth Management</a></h2>
+                <p>Developed a professional website for a financial advisory firm, showcasing wealth management, tax advisory, estate and trust planning, insurance solutions, and business consulting services through a clear and trustworthy user experience.</p>
             </div>
             <div className="project">
-                <a href="https://vavodigital.com" rel="noreferrer" target="_blank">
-                <img src={vavo} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://spadespools.com" rel="noreferrer" target="_blank">
+                <img src={spades} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://vavodigital.com" rel="noreferrer" target="_blank">Vavo Digital - Influencer Marketing Agency</a></h2>
-                <p>A modern, visually refined website developed from different design references layouts to present high-end influencer marketing services effectively.</p>
+               <h2><a href="https://spadespools.com" rel="noreferrer" target="_blank">Spades Pools – Pool Cleaning & Maintenance Services</a></h2>
+                <p>Designed and developed a modern, responsive website for a professional pool service company, showcasing pool cleaning, maintenance, equipment repairs, and custom pool solutions with convenient estimate requests and service information.</p>
             </div>
             <div className="project">
-                <a href="https://podcrafter.techaura.in" rel="noreferrer" target="_blank">
-                <img src={podcrafter} className="zoom" alt="thumbnail" width="100%"/>
+                <a href="https://digieminence.co.in" rel="noreferrer" target="_blank">
+                <img src={digi} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
-               <h2><a href="https://podcrafter.techaura.in" rel="noreferrer" target="_blank">Podcrafter Studio - Podcast Platform</a></h2>
-                <p>A modern, visually refined WordPress website for a podcast platform agency with seamless UI effects and user-friendly interface.</p>
+               <h2><a href="https://digieminence.co.in" rel="noreferrer" target="_blank">Digi Eminence - Digital Marketing Agency</a></h2>
+                <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
+            </div>
+            <div className="project">
+                <a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">
+                <img src={greenly} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">Greenly Mortgage - Mortgage Solutions</a></h2>
+                <p>A clean, intuitive WordPress site offering comprehensive mortgage services, helping clients find the right home financing options with clarity and confidence.</p>
+            </div>
+            <div className="project">
+                <a href="https://brodersen.com/rtu-configurator-lp" rel="noreferrer" target="_blank">
+                <img src={rtu} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://brodersen.com/rtu-configurator-lp" rel="noreferrer" target="_blank">Brodersen – RTU Configurator Landing Page</a></h2>
+                <p>Designed and developed a focused landing page for Brodersen's RTU Configurator, presenting its industrial automation and remote terminal unit configuration solutions with product information, clear navigation, and conversion-focused calls to action.</p>
+            </div>
+            <div className="project">
+                <a href="https://blackandwhiteroofing.com" rel="noreferrer" target="_blank">
+                <img src={banw} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://blackandwhiteroofing.com" rel="noreferrer" target="_blank">Black & White Roofing – Commercial Roofing Services</a></h2>
+                <p>Developed a professional business website for a commercial roofing company, showcasing flat roof installation, roof replacement, emergency repairs, preventive maintenance, TPO and EPDM systems, and roofing solutions with a clear service-focused layout.</p>
             </div>
             <div className="project">
                 <a href="https://supplementfarm.in" rel="noreferrer" target="_blank">
@@ -169,6 +330,20 @@ export default function WordPressProjects() {
                 <p>A modern, visually refined, smooth website developed from different design references layouts to present high-end travel and tourism services effectively.</p>
             </div>
             <div className="project">
+                <a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">
+                <img src={elite} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">8 Elite Nutrition - E-commerce Store</a></h2>
+                <p>A premium WooCommerce store built to present the supplement brand, offering a clean, trustworthy shopping experience and featuring customized offers on purchase.</p>
+            </div>
+            <div className="project">
+                <a href="https://soildidi.com" rel="noreferrer" target="_blank">
+                <img src={soil} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://soildidi.com" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
+                <p>A robust WordPress/WooCommerce website built to deliver agricultural solutions and farming products, offering farmers seamless access to quality supplies, expert guidance, and a reliable e-commerce experience.</p>
+            </div>
+            <div className="project">
                 <a href="https://genzephyr.com" rel="noreferrer" target="_blank">
                 <img src={genzephyr} className="zoom" alt="thumbnail" width="100%"/>
                 </a>
@@ -181,13 +356,6 @@ export default function WordPressProjects() {
                 </a>
                <h2><a href="https://urbannxtinfra.com" rel="noreferrer" target="_blank">Urbannxt Infra - Investment Company</a></h2>
                 <p>Urbannxt Infra – A clean, responsive website developed in WordPress for Real Estate, Land and Industrial Investment in Gujarat.</p>
-            </div>
-            <div className="project">
-                <a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">
-                <img src={elite} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://8elitenutrition.com" rel="noreferrer" target="_blank">8 Elite Nutrition - E-commerce Store</a></h2>
-                <p>A premium WooCommerce store built to present the supplement brand, offering a clean, trustworthy shopping experience and featuring customized offers on purchase.</p>
             </div>
             <div className="project">
                 <a href="https://luxuriaautomotive.com" rel="noreferrer" target="_blank">
@@ -216,6 +384,20 @@ export default function WordPressProjects() {
                 </a>
                <h2><a href="https://ultucup.com" rel="noreferrer" target="_blank">UltuCup – Sustainable Reusable Cup Solutions</a></h2>
                 <p>Developed a modern, responsive website for an eco-friendly brand, showcasing sustainable reusable cups, product features, and a clean, engaging user experience focused on environmental responsibility.</p>
+            </div>
+            <div className="project">
+                <a href="https://turnkeypropertyinspectors.com" rel="noreferrer" target="_blank">
+                <img src={turnkey} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://turnkeypropertyinspectors.com" rel="noreferrer" target="_blank">Turn Key Property Inspectors – Professional Home Inspection Services</a></h2>
+                <p>Developed a modern, responsive website for a certified home inspection company, showcasing residential inspection services, service areas, company credentials, and an intuitive user experience for home buyers and property owners.</p>
+            </div>
+            <div className="project">
+                <a href="https://www.massiveeventsolutions.com" rel="noreferrer" target="_blank">
+                <img src={massive} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+               <h2><a href="https://www.massiveeventsolutions.com" rel="noreferrer" target="_blank">Massive Event Solutions – Event Management & Production</a></h2>
+                <p>Developed a professional website for an event solutions company, presenting its event planning, management, and production capabilities through an engaging business-focused design.</p>
             </div>
             <div className="project">
                 <a href="https://goglobemigrations.com" rel="noreferrer" target="_blank">
@@ -272,27 +454,6 @@ export default function WordPressProjects() {
                 </a>
                <h2><a href="https://cheersup.co.in" rel="noreferrer" target="_blank">Cheer Up - Business Landing Page</a></h2>
                 <p>A clean, responsive custom landing page for Cheer Up, optimized for showcasing about business product.</p>
-            </div>
-            <div className="project">
-                <a href="https://soildidi.com" rel="noreferrer" target="_blank">
-                <img src={soil} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://soildidi.com" rel="noreferrer" target="_blank">Soil Doctor – Agri E-Commerce Platform</a></h2>
-                <p>A robust WordPress/WooCommerce website built to deliver agricultural solutions and farming products, offering farmers seamless access to quality supplies, expert guidance, and a reliable e-commerce experience.</p>
-            </div>
-            <div className="project">
-                <a href="https://digieminence.co.in" rel="noreferrer" target="_blank">
-                <img src={digi} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://digieminence.co.in" rel="noreferrer" target="_blank">Digi Eminence - Digital Marketing Agency</a></h2>
-                <p>Accelance – A clean, responsive custom website developed with Figma to WordPress to showcase about Business and Automation services.</p>
-            </div>
-            <div className="project">
-                <a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">
-                <img src={greenly} className="zoom" alt="thumbnail" width="100%"/>
-                </a>
-               <h2><a href="https://greenlymortgage.com" rel="noreferrer" target="_blank">Greenly Mortgage - Mortgage Solutions</a></h2>
-                <p>A clean, intuitive WordPress site offering comprehensive mortgage services, helping clients find the right home financing options with clarity and confidence.</p>
             </div>
             <div className="project">
                 <a href="https://www.logsday.com" rel="noreferrer" target="_blank">
